@@ -82,7 +82,7 @@ if __name__ == "__main__":
         if "-LSB- XSUM -RSB- URL -LSB- XSUM -RSB-" in doc_sent:
           modeFlag = "URL"
           allcovered += 1
-        elif "-LSB- XSUM -RSB- FIRST-SENTENCE -LSB- XSUM -RSB-" in doc_sent:
+        elif "-LSB- XSUM -RSB- INTRODUCTION -LSB- XSUM -RSB-" in doc_sent:
           modeFlag = "INTRODUCTION"
           allcovered += 1
         elif "-LSB- XSUM -RSB- RESTBODY -LSB- XSUM -RSB-" in doc_sent:
